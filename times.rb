@@ -1,6 +1,12 @@
 def using_times
-7.times do
-  puts 'Wingardium Leviosa'
+counter = 0
+ 
+loop do 
+  counter += 1
+  puts 
+  if counter >= 10 
+    break
+  end
 end
 
 
